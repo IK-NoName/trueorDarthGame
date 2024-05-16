@@ -1,0 +1,238 @@
+body {
+	padding: 50px;
+	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	background-color: black;
+}
+
+a {
+	color: #00b7ff;
+}
+
+.hide {
+	display: none !important	;
+}
+
+.checkboxContainer {
+	display: flex;
+	color: white;
+	justify-content: center;
+}
+
+.openForm {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+}
+
+.form {
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	border: solid black 1px;
+	background-color: white;
+	z-index: 99;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	padding: 2%;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: space-around;
+}
+
+.game {
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 600px;
+}
+
+.nameContainer {
+	padding: 5%;
+	font-size: 180%;
+	font-style: bold;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.cross {
+	color: white;
+	cursor: pointer;
+}
+
+.formQuestion {
+	padding: 5%;
+	height: 250px;
+	background-color: black;
+	border: solid white 1px;
+	border-radius: 30px;
+	color: white;
+}
+
+.choice {
+	position: fixed;
+	top: 30%;
+	left: 42%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	color: white;
+}
+
+.nameChoice {
+	display: flex;
+	justify-content: center;
+}
+
+.choiceButtonsContainer {
+	display: flex;
+}
+.choiceButton {
+	width: 150px;
+	margin: 5%;
+	padding: 5%;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.choiceButton:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.formButton {
+	margin: 5%;
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.formButton:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.game {
+	color: white;
+}
+
+.questionContainer {
+	padding: 5% 0%;
+	font-size: 140%;
+	padding-left: 5%;
+	color: white;
+}
+
+.nextbutton {
+	background-color: white;
+	padding: 5%;
+	border-radius: 30px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.nextbutton:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.container {
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+.addPlayer {
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	width: 150px;
+
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.play {
+	position: fixed;
+	bottom: 1%;
+	left: 10%;
+	width: 150px;
+
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.openForm {
+	width: 200px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.addPlayer:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.play:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.openForm:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.title {
+	color: white;
+}
+
+.player {
+	border: 1px solid white;
+	background-color: black;
+	width: 450px;
+	padding: 2%;
+	border-radius: 50px;
+	color: white;
+	margin-bottom: 5%;
+}

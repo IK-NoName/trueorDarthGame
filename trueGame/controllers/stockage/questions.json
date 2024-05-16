@@ -1,0 +1,56 @@
+{
+	"questions": [
+		{ "question": "Montre tes fesses à {player}", "type": true },
+		{
+			"question": "Dévoile ton orientation sexuel, celle enfui au plus profond de toi même, mais seulement à {player}, et il devra garder le secret jusque dans sa tombe... ou jusqu'a cette question te soit reposé.",
+			"type": true
+		},
+		{ "question": "Met une grande golden à {player}, pocker face obligatoire.", "type": true },
+		{ "question": "Lèche le sol chien.", "type": true },
+		{
+			"question": "Dommage c'est tomber sur toi.Tu te teindra donc les cheveux en violet.",
+			"type": true
+		},
+		{
+			"question": "Bien jouer à toi tu es chanceux !{player} doit te raconter une anecdote croustillante sur lui.",
+			"type": true
+		},
+		{
+			"question": "Bien jouer tu es chanceux, ta prochaine action sera redirigée vers {player}",
+			"type": true
+		},
+		{ "question": "Lache moi 15 pompes si tes un homme.", "type": true },
+		{
+			"question": "Explique nous le fonctionnement du MVC en web.Si ton explication ne satisfait pas les autres alors la prochaine action de {player} te revient de droit ;)",
+			"type": true
+		},
+		{
+			"question": "Alalalala... Il est l'heure de l'humiliation !tu doit donc T-bag {player}.",
+			"type": true
+		},
+		{
+			"question": "Met une grande main à {player} .( action exceptionnellement passable en cas de problème avec la justice )",
+			"type": true
+		},
+		{
+			"question": "Il est l'heure d'assumé et d'inviter {player} en date maintenant, et si il ne te plait pas, fait le avec le joueur de ton choix.",
+			"type": true
+		},
+		{ "question": "Comment te vois tu dans 10 ans", "type": false },
+		{ "question": "Comment vois tu {player} dans 10 ans", "type": false },
+		{ "question": "Comment te voit tu", "type": false },
+		{ "question": "Comment vois tu {player}", "type": false },
+		{
+			"question": "tu préfère prendre {rnd} beuteu ou faire la totale à {player} ",
+			"type": false
+		},
+		{
+			"question": "Qui préfère tu entre {player} et {player} ( si c'est la même personne alors tu es dans l'obligation de dire à quel point tu l'aime ) ",
+			"type": false
+		},
+		{
+			"question": "Qu'aimerais tu faire avec {player} si vous n'étiez que tout les deux, très honnetement ",
+			"type": false
+		}
+	]
+}

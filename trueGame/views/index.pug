@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    script(src='javascripts/index.js', type='module')
+    block content
+
+    
+    div(class='container')
+      h1(class='title') Liste des joueurs
+      input(class='player' placeholder='Enter a name here')
+
+    div(class='game hide')
+
+    button(class='addPlayer')
+      p add a player
+    
+    button(class="play")
+      p play !!
+
+    div(class = 'form hide')
+      p(class='cross') X
+      div(class='formContainer')
+        textarea(class="formQuestion" placeholder='Enter a question here')
+        div(class='checkboxContainer')
+          h3 Action : 
+          input(type='checkbox' class='truthOrDare')
+        button(class="formButton")
+          p ajouter une question
+
+    div(class='choice hide')
+
+    button(class='openForm')
+      p Ajouter une question
