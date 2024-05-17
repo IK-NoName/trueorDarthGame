@@ -236,3 +236,93 @@ a {
 	color: white;
 	margin-bottom: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+	html {
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		padding: 0;
+		margin: 0;
+	}
+
+	.container {
+		left: 5%;
+		width: 90%;
+		font-size: 120%;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.player {
+		width: 80%;
+		height: 30px;
+	}
+
+	.player::placeholder {
+		font-size: 100%;
+		transform: translateX(10px);
+	}
+
+	.addPlayer {
+		bottom: 2%;
+		height: 10%;
+		width: 25%;
+		font-size: 100%;
+		left: 5%;
+	}
+
+	.play {
+		bottom: 2%;
+		height: 10%;
+		width: 25%;
+		font-size: 100%;
+		left: 35%;
+	}
+
+	.openForm {
+		bottom: 2%;
+		height: 10%;
+		width: 25%;
+		font-size: 100%;
+		right: 5%;
+	}
+
+	.form {
+		top: 15%;
+		left: 5%;
+		width: 85%;
+		height: 60%;
+	}
+
+	.choice {
+		left: 10%;
+		width: 80%;
+	}
+
+	.choiceButton {
+		width: 45%;
+		height: 35%;
+	}
+
+	.game {
+		top: 25%;
+		left: 10%;
+		width: 80%;
+	}
+
+	.cross {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding-right: 5%;
+		font-size: 150%;
+	}
+
+	.formQuestion::placeholder {
+		font-size: 150%;
+	}
+}
