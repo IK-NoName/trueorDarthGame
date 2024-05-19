@@ -45,11 +45,20 @@ const parseQuestion = (question, playerName) => {
 	let players = parsePlayer();
 	players = remove(players, playerName);
 
-	let newQuestion = replaceAll(
-		question.question,
-		'{player}',
-		players[Math.floor(Math.random() * players.length)]
-	);
+	let array = question.question.split(' ');
+	for (let i = 0; i < array.length; i++) {
+		if (players.length == 0) {
+			players = parsePlayer();
+			players = remove(players, playerName);
+		}
+		if (array[i] == '{player}') {
+			let rnd = Math.floor(Math.random() * players.length);
+			let name = players[rnd];
+			players = remove(players, name);
+			array[i] = name;
+		}
+	}
+	let newQuestion = array.join(' ');
 	newQuestion = replaceAll(newQuestion, '{rnd}', Math.floor(Math.random() * 10) + 1);
 	return newQuestion;
 };
