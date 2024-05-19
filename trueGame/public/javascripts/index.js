@@ -51,7 +51,7 @@ const parseQuestion = (question, playerName) => {
 			players = parsePlayer();
 			players = remove(players, playerName);
 		}
-		if (array[i] == '{player}') {
+		if (array[i].includes('{player}')) {
 			let rnd = Math.floor(Math.random() * players.length);
 			let name = players[rnd];
 			players = remove(players, name);
